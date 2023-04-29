@@ -1,0 +1,26 @@
+#txt{
+	-fx-background-color: #17A589;
+	-fx-border-color: #ffff;
+	-fx-border-radius: 10; 
+}
+
+#tab{
+	  -fx-background-color: #E1E1E1,  #17A589;
+}
+
+.date-picker {
+    -fx-background-color: transparent;
+    -fx-border-width: 0;
+}
+
+.date-picker > .text-field {
+    -fx-background-color: #17A589; 
+    -fx-border-color: ffff; 
+    -fx-border-radius: 10;
+}
+
+
+
+.date-picker .text-field {
+  /* -fx-control-inner-background: ;*/  
+}

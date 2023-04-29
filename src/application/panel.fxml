@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="700.0" style="-fx-background-color: #2c344b;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LoginController">
+   <children>
+      <AnchorPane layoutX="1.0" layoutY="-1.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="700.0" style="-fx-background-color: #1f7340;">
+         <children>
+            <AnchorPane prefHeight="48.0" prefWidth="700.0" style="-fx-background-color: #43bb73;">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="269.0" layoutY="11.0" prefHeight="35.0" prefWidth="183.0" text="Menu principal" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Button alignment="CENTER" layoutX="240.0" layoutY="142.0" mnemonicParsing="false" onMouseClicked="#especies" prefHeight="31.0" prefWidth="221.0" style="-fx-background-color: WHITE;" text="Especies" AnchorPane.topAnchor="142.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER" layoutX="240.0" layoutY="212.0" mnemonicParsing="false" onMouseClicked="#proyectos" prefHeight="31.0" prefWidth="221.0" style="-fx-background-color: WHITE;" text="Proyectos">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER" layoutX="240.0" layoutY="363.0" mnemonicParsing="false" onMouseClicked="#areas" prefHeight="31.0" prefWidth="221.0" style="-fx-background-color: WHITE;" text="Areas" AnchorPane.bottomAnchor="400.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER" layoutX="240.0" layoutY="281.0" mnemonicParsing="false" onMouseClicked="#personal" prefHeight="31.0" prefWidth="221.0" style="-fx-background-color: WHITE;" text="Personal">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <AnchorPane layoutX="150.0" layoutY="752.0" prefHeight="48.0" prefWidth="401.0" style="-fx-background-color: #43bb73;">
+               <children>
+                  <Label fx:id="login" alignment="CENTER" layoutX="143.0" layoutY="11.0" prefHeight="30.0" prefWidth="127.0" text="Cerrar sesion" textFill="#fefefe">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+           
+      
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
